@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WebShop</title>
+  <meta name="description" content="Download the WebShop app for Android and iPhone.">
+  <style>
+    :root { --bg: #14110c; --ink: #f7f3ea; --muted: #d2c6b2; --accent: #f0b429; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: var(--bg); color: var(--ink); font-family: Georgia, "Iowan Old Style", Palatino, serif; }
+    main { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; max-width: 720px; margin: 0 auto; padding: 48px 24px 64px; }
+    .kicker { margin: 0 0 18px; font-family: "Segoe UI", sans-serif; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); }
+    h1 { margin: 0 0 18px; font-size: clamp(52px, 9vw, 88px); font-weight: 500; line-height: 0.92; }
+    .lead { margin: 0 0 36px; max-width: 34em; font-family: "Segoe UI", sans-serif; font-size: 18px; line-height: 1.55; color: var(--muted); }
+    .stores { display: flex; flex-wrap: wrap; gap: 12px; }
+    .store { display: flex; flex-direction: column; justify-content: center; min-width: 196px; min-height: 64px; padding: 10px 18px; border: 1px solid rgba(255,255,255,0.2); border-radius: 12px; background: #000; color: #fff; text-decoration: none; }
+    .store span { font-family: "Segoe UI", sans-serif; font-size: 11px; letter-spacing: 0.02em; opacity: 0.78; }
+    .store strong { font-family: "Segoe UI", sans-serif; font-size: 20px; font-weight: 650; }
+    .store:hover { border-color: var(--accent); }
+    .store:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="kicker">Mobile app</p>
+    <h1>WebShop</h1>
+    <p class="lead">Browse products, follow your orders, and manage your account from your phone.</p>
+    <div class="stores">
+      <a class="store" href="https://play.google.com/store/search?q=WebShop&amp;c=apps">
+        <span>Get it on</span>
+        <strong>Google Play</strong>
+      </a>
+      <a class="store" href="https://apps.apple.com/search?term=WebShop">
+        <span>Download on the</span>
+        <strong>App Store</strong>
+      </a>
+    </div>
+  </main>
+</body>
+</html>
